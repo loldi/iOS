@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BFD0D91C8249CC005B211D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFD0D81C8249CC005B211D /* AppDelegate.swift */; };
+		49BFD0DB1C8249CC005B211D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFD0DA1C8249CC005B211D /* ViewController.swift */; };
+		49BFD0DE1C8249CC005B211D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BFD0DC1C8249CC005B211D /* Main.storyboard */; };
+		49BFD0E01C8249CC005B211D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BFD0DF1C8249CC005B211D /* Assets.xcassets */; };
+		49BFD0E31C8249CC005B211D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BFD0E11C8249CC005B211D /* LaunchScreen.storyboard */; };
+		49BFD0EE1C8249CC005B211D /* dorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFD0ED1C8249CC005B211D /* dorkshopTests.swift */; };
+		49BFD0F91C8249CC005B211D /* dorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFD0F81C8249CC005B211D /* dorkshopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BFD0EA1C8249CC005B211D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BFD0CD1C8249CC005B211D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BFD0D41C8249CC005B211D;
+			remoteInfo = dorkshop;
+		};
+		49BFD0F51C8249CC005B211D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BFD0CD1C8249CC005B211D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BFD0D41C8249CC005B211D;
+			remoteInfo = dorkshop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49BFD0D51C8249CC005B211D /* dorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BFD0D81C8249CC005B211D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49BFD0DA1C8249CC005B211D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49BFD0DD1C8249CC005B211D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BFD0DF1C8249CC005B211D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49BFD0E21C8249CC005B211D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49BFD0E41C8249CC005B211D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BFD0E91C8249CC005B211D /* dorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BFD0ED1C8249CC005B211D /* dorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkshopTests.swift; sourceTree = "<group>"; };
+		49BFD0EF1C8249CC005B211D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BFD0F41C8249CC005B211D /* dorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BFD0F81C8249CC005B211D /* dorkshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkshopUITests.swift; sourceTree = "<group>"; };
+		49BFD0FA1C8249CC005B211D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BFD0D21C8249CC005B211D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0E61C8249CC005B211D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0F11C8249CC005B211D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BFD0CC1C8249CC005B211D = {
+			isa = PBXGroup;
+			children = (
+				49BFD0D71C8249CC005B211D /* dorkshop */,
+				49BFD0EC1C8249CC005B211D /* dorkshopTests */,
+				49BFD0F71C8249CC005B211D /* dorkshopUITests */,
+				49BFD0D61C8249CC005B211D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BFD0D61C8249CC005B211D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BFD0D51C8249CC005B211D /* dorkshop.app */,
+				49BFD0E91C8249CC005B211D /* dorkshopTests.xctest */,
+				49BFD0F41C8249CC005B211D /* dorkshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BFD0D71C8249CC005B211D /* dorkshop */ = {
+			isa = PBXGroup;
+			children = (
+				49BFD0D81C8249CC005B211D /* AppDelegate.swift */,
+				49BFD0DA1C8249CC005B211D /* ViewController.swift */,
+				49BFD0DC1C8249CC005B211D /* Main.storyboard */,
+				49BFD0DF1C8249CC005B211D /* Assets.xcassets */,
+				49BFD0E11C8249CC005B211D /* LaunchScreen.storyboard */,
+				49BFD0E41C8249CC005B211D /* Info.plist */,
+			);
+			path = dorkshop;
+			sourceTree = "<group>";
+		};
+		49BFD0EC1C8249CC005B211D /* dorkshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				49BFD0ED1C8249CC005B211D /* dorkshopTests.swift */,
+				49BFD0EF1C8249CC005B211D /* Info.plist */,
+			);
+			path = dorkshopTests;
+			sourceTree = "<group>";
+		};
+		49BFD0F71C8249CC005B211D /* dorkshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49BFD0F81C8249CC005B211D /* dorkshopUITests.swift */,
+				49BFD0FA1C8249CC005B211D /* Info.plist */,
+			);
+			path = dorkshopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BFD0D41C8249CC005B211D /* dorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BFD0FD1C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshop" */;
+			buildPhases = (
+				49BFD0D11C8249CC005B211D /* Sources */,
+				49BFD0D21C8249CC005B211D /* Frameworks */,
+				49BFD0D31C8249CC005B211D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dorkshop;
+			productName = dorkshop;
+			productReference = 49BFD0D51C8249CC005B211D /* dorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49BFD0E81C8249CC005B211D /* dorkshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BFD1001C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshopTests" */;
+			buildPhases = (
+				49BFD0E51C8249CC005B211D /* Sources */,
+				49BFD0E61C8249CC005B211D /* Frameworks */,
+				49BFD0E71C8249CC005B211D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BFD0EB1C8249CC005B211D /* PBXTargetDependency */,
+			);
+			name = dorkshopTests;
+			productName = dorkshopTests;
+			productReference = 49BFD0E91C8249CC005B211D /* dorkshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49BFD0F31C8249CC005B211D /* dorkshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BFD1031C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshopUITests" */;
+			buildPhases = (
+				49BFD0F01C8249CC005B211D /* Sources */,
+				49BFD0F11C8249CC005B211D /* Frameworks */,
+				49BFD0F21C8249CC005B211D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BFD0F61C8249CC005B211D /* PBXTargetDependency */,
+			);
+			name = dorkshopUITests;
+			productName = dorkshopUITests;
+			productReference = 49BFD0F41C8249CC005B211D /* dorkshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BFD0CD1C8249CC005B211D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Genualdi";
+				TargetAttributes = {
+					49BFD0D41C8249CC005B211D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8UP4AJ4VL;
+					};
+					49BFD0E81C8249CC005B211D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49BFD0D41C8249CC005B211D;
+					};
+					49BFD0F31C8249CC005B211D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49BFD0D41C8249CC005B211D;
+					};
+				};
+			};
+			buildConfigurationList = 49BFD0D01C8249CC005B211D /* Build configuration list for PBXProject "dorkshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BFD0CC1C8249CC005B211D;
+			productRefGroup = 49BFD0D61C8249CC005B211D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BFD0D41C8249CC005B211D /* dorkshop */,
+				49BFD0E81C8249CC005B211D /* dorkshopTests */,
+				49BFD0F31C8249CC005B211D /* dorkshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BFD0D31C8249CC005B211D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BFD0E31C8249CC005B211D /* LaunchScreen.storyboard in Resources */,
+				49BFD0E01C8249CC005B211D /* Assets.xcassets in Resources */,
+				49BFD0DE1C8249CC005B211D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0E71C8249CC005B211D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0F21C8249CC005B211D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BFD0D11C8249CC005B211D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BFD0DB1C8249CC005B211D /* ViewController.swift in Sources */,
+				49BFD0D91C8249CC005B211D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0E51C8249CC005B211D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BFD0EE1C8249CC005B211D /* dorkshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BFD0F01C8249CC005B211D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BFD0F91C8249CC005B211D /* dorkshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49BFD0EB1C8249CC005B211D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BFD0D41C8249CC005B211D /* dorkshop */;
+			targetProxy = 49BFD0EA1C8249CC005B211D /* PBXContainerItemProxy */;
+		};
+		49BFD0F61C8249CC005B211D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BFD0D41C8249CC005B211D /* dorkshop */;
+			targetProxy = 49BFD0F51C8249CC005B211D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49BFD0DC1C8249CC005B211D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BFD0DD1C8249CC005B211D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BFD0E11C8249CC005B211D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BFD0E21C8249CC005B211D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BFD0FB1C8249CC005B211D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49BFD0FC1C8249CC005B211D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BFD0FE1C8249CC005B211D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = dorkshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BFD0FF1C8249CC005B211D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = dorkshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49BFD1011C8249CC005B211D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkshop.app/dorkshop";
+			};
+			name = Debug;
+		};
+		49BFD1021C8249CC005B211D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkshop.app/dorkshop";
+			};
+			name = Release;
+		};
+		49BFD1041C8249CC005B211D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkshop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49BFD1051C8249CC005B211D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkshop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BFD0D01C8249CC005B211D /* Build configuration list for PBXProject "dorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BFD0FB1C8249CC005B211D /* Debug */,
+				49BFD0FC1C8249CC005B211D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BFD0FD1C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BFD0FE1C8249CC005B211D /* Debug */,
+				49BFD0FF1C8249CC005B211D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49BFD1001C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BFD1011C8249CC005B211D /* Debug */,
+				49BFD1021C8249CC005B211D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49BFD1031C8249CC005B211D /* Build configuration list for PBXNativeTarget "dorkshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BFD1041C8249CC005B211D /* Debug */,
+				49BFD1051C8249CC005B211D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BFD0CD1C8249CC005B211D /* Project object */;
+}

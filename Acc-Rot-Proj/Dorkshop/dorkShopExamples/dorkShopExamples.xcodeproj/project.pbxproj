@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496B61A81C7F824D0021AEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B61A71C7F824D0021AEC7 /* AppDelegate.swift */; };
+		496B61AD1C7F824D0021AEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496B61AB1C7F824D0021AEC7 /* Main.storyboard */; };
+		496B61AF1C7F824D0021AEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B61AE1C7F824D0021AEC7 /* Assets.xcassets */; };
+		496B61B21C7F824D0021AEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496B61B01C7F824D0021AEC7 /* LaunchScreen.storyboard */; };
+		496B61BD1C7F824D0021AEC7 /* dorkShopExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B61BC1C7F824D0021AEC7 /* dorkShopExamplesTests.swift */; };
+		496B61C81C7F824D0021AEC7 /* dorkShopExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B61C71C7F824D0021AEC7 /* dorkShopExamplesUITests.swift */; };
+		496B61D61C7F84670021AEC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496B61D51C7F84670021AEC7 /* MapKit.framework */; };
+		496B61D81C7F887B0021AEC7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B61D71C7F887B0021AEC7 /* MapViewController.swift */; };
+		496B61DA1C7F88A70021AEC7 /* FunShitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B61D91C7F88A70021AEC7 /* FunShitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496B61B91C7F824D0021AEC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496B619C1C7F824D0021AEC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496B61A31C7F824D0021AEC7;
+			remoteInfo = dorkShopExamples;
+		};
+		496B61C41C7F824D0021AEC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496B619C1C7F824D0021AEC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496B61A31C7F824D0021AEC7;
+			remoteInfo = dorkShopExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496B61A41C7F824D0021AEC7 /* dorkShopExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dorkShopExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496B61A71C7F824D0021AEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496B61AC1C7F824D0021AEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496B61AE1C7F824D0021AEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496B61B11C7F824D0021AEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496B61B31C7F824D0021AEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496B61B81C7F824D0021AEC7 /* dorkShopExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkShopExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496B61BC1C7F824D0021AEC7 /* dorkShopExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkShopExamplesTests.swift; sourceTree = "<group>"; };
+		496B61BE1C7F824D0021AEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496B61C31C7F824D0021AEC7 /* dorkShopExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkShopExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496B61C71C7F824D0021AEC7 /* dorkShopExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkShopExamplesUITests.swift; sourceTree = "<group>"; };
+		496B61C91C7F824D0021AEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496B61D51C7F84670021AEC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		496B61D71C7F887B0021AEC7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		496B61D91C7F88A70021AEC7 /* FunShitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunShitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496B61A11C7F824D0021AEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B61D61C7F84670021AEC7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61B51C7F824D0021AEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61C01C7F824D0021AEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496B619B1C7F824D0021AEC7 = {
+			isa = PBXGroup;
+			children = (
+				496B61D51C7F84670021AEC7 /* MapKit.framework */,
+				496B61A61C7F824D0021AEC7 /* dorkShopExamples */,
+				496B61BB1C7F824D0021AEC7 /* dorkShopExamplesTests */,
+				496B61C61C7F824D0021AEC7 /* dorkShopExamplesUITests */,
+				496B61A51C7F824D0021AEC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496B61A51C7F824D0021AEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496B61A41C7F824D0021AEC7 /* dorkShopExamples.app */,
+				496B61B81C7F824D0021AEC7 /* dorkShopExamplesTests.xctest */,
+				496B61C31C7F824D0021AEC7 /* dorkShopExamplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496B61A61C7F824D0021AEC7 /* dorkShopExamples */ = {
+			isa = PBXGroup;
+			children = (
+				496B61A71C7F824D0021AEC7 /* AppDelegate.swift */,
+				496B61AB1C7F824D0021AEC7 /* Main.storyboard */,
+				496B61D91C7F88A70021AEC7 /* FunShitViewController.swift */,
+				496B61D71C7F887B0021AEC7 /* MapViewController.swift */,
+				496B61AE1C7F824D0021AEC7 /* Assets.xcassets */,
+				496B61B01C7F824D0021AEC7 /* LaunchScreen.storyboard */,
+				496B61B31C7F824D0021AEC7 /* Info.plist */,
+			);
+			path = dorkShopExamples;
+			sourceTree = "<group>";
+		};
+		496B61BB1C7F824D0021AEC7 /* dorkShopExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				496B61BC1C7F824D0021AEC7 /* dorkShopExamplesTests.swift */,
+				496B61BE1C7F824D0021AEC7 /* Info.plist */,
+			);
+			path = dorkShopExamplesTests;
+			sourceTree = "<group>";
+		};
+		496B61C61C7F824D0021AEC7 /* dorkShopExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				496B61C71C7F824D0021AEC7 /* dorkShopExamplesUITests.swift */,
+				496B61C91C7F824D0021AEC7 /* Info.plist */,
+			);
+			path = dorkShopExamplesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496B61A31C7F824D0021AEC7 /* dorkShopExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496B61CC1C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamples" */;
+			buildPhases = (
+				496B61A01C7F824D0021AEC7 /* Sources */,
+				496B61A11C7F824D0021AEC7 /* Frameworks */,
+				496B61A21C7F824D0021AEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dorkShopExamples;
+			productName = dorkShopExamples;
+			productReference = 496B61A41C7F824D0021AEC7 /* dorkShopExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496B61B71C7F824D0021AEC7 /* dorkShopExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496B61CF1C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamplesTests" */;
+			buildPhases = (
+				496B61B41C7F824D0021AEC7 /* Sources */,
+				496B61B51C7F824D0021AEC7 /* Frameworks */,
+				496B61B61C7F824D0021AEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496B61BA1C7F824D0021AEC7 /* PBXTargetDependency */,
+			);
+			name = dorkShopExamplesTests;
+			productName = dorkShopExamplesTests;
+			productReference = 496B61B81C7F824D0021AEC7 /* dorkShopExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496B61C21C7F824D0021AEC7 /* dorkShopExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496B61D21C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamplesUITests" */;
+			buildPhases = (
+				496B61BF1C7F824D0021AEC7 /* Sources */,
+				496B61C01C7F824D0021AEC7 /* Frameworks */,
+				496B61C11C7F824D0021AEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496B61C51C7F824D0021AEC7 /* PBXTargetDependency */,
+			);
+			name = dorkShopExamplesUITests;
+			productName = dorkShopExamplesUITests;
+			productReference = 496B61C31C7F824D0021AEC7 /* dorkShopExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496B619C1C7F824D0021AEC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Genualdi";
+				TargetAttributes = {
+					496B61A31C7F824D0021AEC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8UP4AJ4VL;
+					};
+					496B61B71C7F824D0021AEC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 496B61A31C7F824D0021AEC7;
+					};
+					496B61C21C7F824D0021AEC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 496B61A31C7F824D0021AEC7;
+					};
+				};
+			};
+			buildConfigurationList = 496B619F1C7F824D0021AEC7 /* Build configuration list for PBXProject "dorkShopExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496B619B1C7F824D0021AEC7;
+			productRefGroup = 496B61A51C7F824D0021AEC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496B61A31C7F824D0021AEC7 /* dorkShopExamples */,
+				496B61B71C7F824D0021AEC7 /* dorkShopExamplesTests */,
+				496B61C21C7F824D0021AEC7 /* dorkShopExamplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496B61A21C7F824D0021AEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B61B21C7F824D0021AEC7 /* LaunchScreen.storyboard in Resources */,
+				496B61AF1C7F824D0021AEC7 /* Assets.xcassets in Resources */,
+				496B61AD1C7F824D0021AEC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61B61C7F824D0021AEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61C11C7F824D0021AEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496B61A01C7F824D0021AEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B61DA1C7F88A70021AEC7 /* FunShitViewController.swift in Sources */,
+				496B61A81C7F824D0021AEC7 /* AppDelegate.swift in Sources */,
+				496B61D81C7F887B0021AEC7 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61B41C7F824D0021AEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B61BD1C7F824D0021AEC7 /* dorkShopExamplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B61BF1C7F824D0021AEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B61C81C7F824D0021AEC7 /* dorkShopExamplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496B61BA1C7F824D0021AEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496B61A31C7F824D0021AEC7 /* dorkShopExamples */;
+			targetProxy = 496B61B91C7F824D0021AEC7 /* PBXContainerItemProxy */;
+		};
+		496B61C51C7F824D0021AEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496B61A31C7F824D0021AEC7 /* dorkShopExamples */;
+			targetProxy = 496B61C41C7F824D0021AEC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496B61AB1C7F824D0021AEC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496B61AC1C7F824D0021AEC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496B61B01C7F824D0021AEC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496B61B11C7F824D0021AEC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496B61CA1C7F824D0021AEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496B61CB1C7F824D0021AEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496B61CD1C7F824D0021AEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = dorkShopExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496B61CE1C7F824D0021AEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = dorkShopExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496B61D01C7F824D0021AEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkShopExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkShopExamples.app/dorkShopExamples";
+			};
+			name = Debug;
+		};
+		496B61D11C7F824D0021AEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkShopExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkShopExamples.app/dorkShopExamples";
+			};
+			name = Release;
+		};
+		496B61D31C7F824D0021AEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkShopExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkShopExamples;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		496B61D41C7F824D0021AEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkShopExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkShopExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkShopExamples;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496B619F1C7F824D0021AEC7 /* Build configuration list for PBXProject "dorkShopExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496B61CA1C7F824D0021AEC7 /* Debug */,
+				496B61CB1C7F824D0021AEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496B61CC1C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496B61CD1C7F824D0021AEC7 /* Debug */,
+				496B61CE1C7F824D0021AEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496B61CF1C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496B61D01C7F824D0021AEC7 /* Debug */,
+				496B61D11C7F824D0021AEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496B61D21C7F824D0021AEC7 /* Build configuration list for PBXNativeTarget "dorkShopExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496B61D31C7F824D0021AEC7 /* Debug */,
+				496B61D41C7F824D0021AEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496B619C1C7F824D0021AEC7 /* Project object */;
+}

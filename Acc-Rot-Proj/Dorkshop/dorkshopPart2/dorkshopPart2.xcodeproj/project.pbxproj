@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498C8C061C88E7A3009EAD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C051C88E7A3009EAD32 /* AppDelegate.swift */; };
+		498C8C081C88E7A3009EAD32 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C071C88E7A3009EAD32 /* FirstViewController.swift */; };
+		498C8C0A1C88E7A3009EAD32 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C091C88E7A3009EAD32 /* SecondViewController.swift */; };
+		498C8C0D1C88E7A3009EAD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498C8C0B1C88E7A3009EAD32 /* Main.storyboard */; };
+		498C8C0F1C88E7A3009EAD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498C8C0E1C88E7A3009EAD32 /* Assets.xcassets */; };
+		498C8C121C88E7A3009EAD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498C8C101C88E7A3009EAD32 /* LaunchScreen.storyboard */; };
+		498C8C1D1C88E7A3009EAD32 /* dorkshopPart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C1C1C88E7A3009EAD32 /* dorkshopPart2Tests.swift */; };
+		498C8C281C88E7A3009EAD32 /* dorkshopPart2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C271C88E7A3009EAD32 /* dorkshopPart2UITests.swift */; };
+		498C8C361C88EA19009EAD32 /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8C351C88EA19009EAD32 /* CustomPin.swift */; };
+		498C8C381C88EB9C009EAD32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498C8C371C88EB9C009EAD32 /* MapKit.framework */; };
+		498C8C3A1C88EBA3009EAD32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498C8C391C88EBA3009EAD32 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498C8C191C88E7A3009EAD32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498C8BFA1C88E7A3009EAD32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498C8C011C88E7A3009EAD32;
+			remoteInfo = dorkshopPart2;
+		};
+		498C8C241C88E7A3009EAD32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498C8BFA1C88E7A3009EAD32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498C8C011C88E7A3009EAD32;
+			remoteInfo = dorkshopPart2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		498C8C021C88E7A3009EAD32 /* dorkshopPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dorkshopPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498C8C051C88E7A3009EAD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		498C8C071C88E7A3009EAD32 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		498C8C091C88E7A3009EAD32 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		498C8C0C1C88E7A3009EAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498C8C0E1C88E7A3009EAD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498C8C111C88E7A3009EAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498C8C131C88E7A3009EAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498C8C181C88E7A3009EAD32 /* dorkshopPart2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkshopPart2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498C8C1C1C88E7A3009EAD32 /* dorkshopPart2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkshopPart2Tests.swift; sourceTree = "<group>"; };
+		498C8C1E1C88E7A3009EAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498C8C231C88E7A3009EAD32 /* dorkshopPart2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorkshopPart2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498C8C271C88E7A3009EAD32 /* dorkshopPart2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dorkshopPart2UITests.swift; sourceTree = "<group>"; };
+		498C8C291C88E7A3009EAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498C8C351C88EA19009EAD32 /* CustomPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
+		498C8C371C88EB9C009EAD32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		498C8C391C88EBA3009EAD32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498C8BFF1C88E7A3009EAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C8C3A1C88EBA3009EAD32 /* CoreLocation.framework in Frameworks */,
+				498C8C381C88EB9C009EAD32 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C151C88E7A3009EAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C201C88E7A3009EAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498C8BF91C88E7A3009EAD32 = {
+			isa = PBXGroup;
+			children = (
+				498C8C391C88EBA3009EAD32 /* CoreLocation.framework */,
+				498C8C371C88EB9C009EAD32 /* MapKit.framework */,
+				498C8C041C88E7A3009EAD32 /* dorkshopPart2 */,
+				498C8C1B1C88E7A3009EAD32 /* dorkshopPart2Tests */,
+				498C8C261C88E7A3009EAD32 /* dorkshopPart2UITests */,
+				498C8C031C88E7A3009EAD32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498C8C031C88E7A3009EAD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498C8C021C88E7A3009EAD32 /* dorkshopPart2.app */,
+				498C8C181C88E7A3009EAD32 /* dorkshopPart2Tests.xctest */,
+				498C8C231C88E7A3009EAD32 /* dorkshopPart2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498C8C041C88E7A3009EAD32 /* dorkshopPart2 */ = {
+			isa = PBXGroup;
+			children = (
+				498C8C051C88E7A3009EAD32 /* AppDelegate.swift */,
+				498C8C071C88E7A3009EAD32 /* FirstViewController.swift */,
+				498C8C091C88E7A3009EAD32 /* SecondViewController.swift */,
+				498C8C0B1C88E7A3009EAD32 /* Main.storyboard */,
+				498C8C0E1C88E7A3009EAD32 /* Assets.xcassets */,
+				498C8C351C88EA19009EAD32 /* CustomPin.swift */,
+				498C8C101C88E7A3009EAD32 /* LaunchScreen.storyboard */,
+				498C8C131C88E7A3009EAD32 /* Info.plist */,
+			);
+			path = dorkshopPart2;
+			sourceTree = "<group>";
+		};
+		498C8C1B1C88E7A3009EAD32 /* dorkshopPart2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				498C8C1C1C88E7A3009EAD32 /* dorkshopPart2Tests.swift */,
+				498C8C1E1C88E7A3009EAD32 /* Info.plist */,
+			);
+			path = dorkshopPart2Tests;
+			sourceTree = "<group>";
+		};
+		498C8C261C88E7A3009EAD32 /* dorkshopPart2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				498C8C271C88E7A3009EAD32 /* dorkshopPart2UITests.swift */,
+				498C8C291C88E7A3009EAD32 /* Info.plist */,
+			);
+			path = dorkshopPart2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498C8C011C88E7A3009EAD32 /* dorkshopPart2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498C8C2C1C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2" */;
+			buildPhases = (
+				498C8BFE1C88E7A3009EAD32 /* Sources */,
+				498C8BFF1C88E7A3009EAD32 /* Frameworks */,
+				498C8C001C88E7A3009EAD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dorkshopPart2;
+			productName = dorkshopPart2;
+			productReference = 498C8C021C88E7A3009EAD32 /* dorkshopPart2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498C8C171C88E7A3009EAD32 /* dorkshopPart2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498C8C2F1C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2Tests" */;
+			buildPhases = (
+				498C8C141C88E7A3009EAD32 /* Sources */,
+				498C8C151C88E7A3009EAD32 /* Frameworks */,
+				498C8C161C88E7A3009EAD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498C8C1A1C88E7A3009EAD32 /* PBXTargetDependency */,
+			);
+			name = dorkshopPart2Tests;
+			productName = dorkshopPart2Tests;
+			productReference = 498C8C181C88E7A3009EAD32 /* dorkshopPart2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498C8C221C88E7A3009EAD32 /* dorkshopPart2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498C8C321C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2UITests" */;
+			buildPhases = (
+				498C8C1F1C88E7A3009EAD32 /* Sources */,
+				498C8C201C88E7A3009EAD32 /* Frameworks */,
+				498C8C211C88E7A3009EAD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498C8C251C88E7A3009EAD32 /* PBXTargetDependency */,
+			);
+			name = dorkshopPart2UITests;
+			productName = dorkshopPart2UITests;
+			productReference = 498C8C231C88E7A3009EAD32 /* dorkshopPart2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498C8BFA1C88E7A3009EAD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Genualdi";
+				TargetAttributes = {
+					498C8C011C88E7A3009EAD32 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8UP4AJ4VL;
+					};
+					498C8C171C88E7A3009EAD32 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 498C8C011C88E7A3009EAD32;
+					};
+					498C8C221C88E7A3009EAD32 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 498C8C011C88E7A3009EAD32;
+					};
+				};
+			};
+			buildConfigurationList = 498C8BFD1C88E7A3009EAD32 /* Build configuration list for PBXProject "dorkshopPart2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498C8BF91C88E7A3009EAD32;
+			productRefGroup = 498C8C031C88E7A3009EAD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498C8C011C88E7A3009EAD32 /* dorkshopPart2 */,
+				498C8C171C88E7A3009EAD32 /* dorkshopPart2Tests */,
+				498C8C221C88E7A3009EAD32 /* dorkshopPart2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498C8C001C88E7A3009EAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C8C121C88E7A3009EAD32 /* LaunchScreen.storyboard in Resources */,
+				498C8C0F1C88E7A3009EAD32 /* Assets.xcassets in Resources */,
+				498C8C0D1C88E7A3009EAD32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C161C88E7A3009EAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C211C88E7A3009EAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498C8BFE1C88E7A3009EAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C8C361C88EA19009EAD32 /* CustomPin.swift in Sources */,
+				498C8C0A1C88E7A3009EAD32 /* SecondViewController.swift in Sources */,
+				498C8C061C88E7A3009EAD32 /* AppDelegate.swift in Sources */,
+				498C8C081C88E7A3009EAD32 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C141C88E7A3009EAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C8C1D1C88E7A3009EAD32 /* dorkshopPart2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498C8C1F1C88E7A3009EAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C8C281C88E7A3009EAD32 /* dorkshopPart2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498C8C1A1C88E7A3009EAD32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498C8C011C88E7A3009EAD32 /* dorkshopPart2 */;
+			targetProxy = 498C8C191C88E7A3009EAD32 /* PBXContainerItemProxy */;
+		};
+		498C8C251C88E7A3009EAD32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498C8C011C88E7A3009EAD32 /* dorkshopPart2 */;
+			targetProxy = 498C8C241C88E7A3009EAD32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		498C8C0B1C88E7A3009EAD32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498C8C0C1C88E7A3009EAD32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		498C8C101C88E7A3009EAD32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498C8C111C88E7A3009EAD32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498C8C2A1C88E7A3009EAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		498C8C2B1C88E7A3009EAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498C8C2D1C88E7A3009EAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = dorkshopPart2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		498C8C2E1C88E7A3009EAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = dorkshopPart2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		498C8C301C88E7A3009EAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkshopPart2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkshopPart2.app/dorkshopPart2";
+			};
+			name = Debug;
+		};
+		498C8C311C88E7A3009EAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dorkshopPart2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dorkshopPart2.app/dorkshopPart2";
+			};
+			name = Release;
+		};
+		498C8C331C88E7A3009EAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkshopPart2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkshopPart2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		498C8C341C88E7A3009EAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dorkshopPart2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genualdi.dorkshopPart2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dorkshopPart2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498C8BFD1C88E7A3009EAD32 /* Build configuration list for PBXProject "dorkshopPart2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498C8C2A1C88E7A3009EAD32 /* Debug */,
+				498C8C2B1C88E7A3009EAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498C8C2C1C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498C8C2D1C88E7A3009EAD32 /* Debug */,
+				498C8C2E1C88E7A3009EAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		498C8C2F1C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498C8C301C88E7A3009EAD32 /* Debug */,
+				498C8C311C88E7A3009EAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		498C8C321C88E7A3009EAD32 /* Build configuration list for PBXNativeTarget "dorkshopPart2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498C8C331C88E7A3009EAD32 /* Debug */,
+				498C8C341C88E7A3009EAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498C8BFA1C88E7A3009EAD32 /* Project object */;
+}
