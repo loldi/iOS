@@ -15,6 +15,7 @@
 		49567AD61CB81BE600BE37A5 /* jiaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567AD51CB81BE600BE37A5 /* jiaTestTests.swift */; };
 		49567AE11CB81BE600BE37A5 /* jiaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567AE01CB81BE600BE37A5 /* jiaTestUITests.swift */; };
 		49567AF51CB81F2D00BE37A5 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567AF41CB81F2D00BE37A5 /* ImageCollectionViewCell.swift */; };
+		49AD6A421CBEEB440057ABE6 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD6A411CBEEB440057ABE6 /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		49567AE01CB81BE600BE37A5 /* jiaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jiaTestUITests.swift; sourceTree = "<group>"; };
 		49567AE21CB81BE600BE37A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49567AF41CB81F2D00BE37A5 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = ../ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		49AD6A411CBEEB440057ABE6 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				49567AC01CB81BE500BE37A5 /* AppDelegate.swift */,
 				49567AF41CB81F2D00BE37A5 /* ImageCollectionViewCell.swift */,
 				49567AC21CB81BE500BE37A5 /* ViewController.swift */,
+				49AD6A411CBEEB440057ABE6 /* InformationViewController.swift */,
 				49567AC41CB81BE500BE37A5 /* Main.storyboard */,
 				49567AC71CB81BE600BE37A5 /* Assets.xcassets */,
 				49567AC91CB81BE600BE37A5 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				49567AF51CB81F2D00BE37A5 /* ImageCollectionViewCell.swift in Sources */,
 				49567AC31CB81BE500BE37A5 /* ViewController.swift in Sources */,
 				49567AC11CB81BE500BE37A5 /* AppDelegate.swift in Sources */,
+				49AD6A421CBEEB440057ABE6 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				49567AE71CB81BE600BE37A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49567AE81CB81BE600BE37A5 /* Build configuration list for PBXNativeTarget "jiaTestTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				49567AEA1CB81BE600BE37A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49567AEB1CB81BE600BE37A5 /* Build configuration list for PBXNativeTarget "jiaTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				49567AED1CB81BE600BE37A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

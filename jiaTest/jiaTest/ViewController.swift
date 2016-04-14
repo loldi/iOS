@@ -16,9 +16,27 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     //array of image file names for the pictures that should go in your Assets.xcassets folder.  the images are linked in the file "ImageCollectionViewCell" on the left
     
-    var tableImg: [String] = ["1.png", "2.png", "3.png", "4.png" , "5.png"]
+    var tableImg: [String] = ["1.png", "2.png", "3.png", "4.png" , "5.png", "1.png"]
     
-    var titleText: [String] = ["Movie 1", "TV Show 2", "Title 3", "Title 4" , "Title 5"]
+    var titleText: [String] = ["Movie 1", "TV Show 2", "Title 3", "Title 4" , "Title 5", "Title 6"]
+    
+    var directorTitle:[String] = [
+        "Andrew Niccol",
+        "Andrew Niccol",
+        "Lana Wachowski, Lana Wachowski",
+        "Lana Wachowski, Lana Wachowski",
+        "Lana Wachowski, Lana Wachowski",
+        "Andrew Niccol"
+        ]
+    
+    let Tag_Name:[String] = [
+        "Door",
+        "Door",
+        "Door",
+        "Window",
+        "Window",
+        "Door"
+        ]
     
     
     //you need the following 2 function to make the collection view to connect properly, dont worry about them right now
@@ -32,12 +50,41 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         cell.previewImages.image = UIImage(named: tableImg[indexPath.row])
         cell.titleText.text = titleText[indexPath.row]
+        cell.directorTitle.text = directorTitle[indexPath.row]
+        cell.tagName.text = Tag_Name[indexPath.row]
         
         return cell
     }
     
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
 
+        if let cell = collectionView.cellForItemAtIndexPath(indexPath) {
+            performSegueWithIdentifier("InformationViewController", sender: cell)
+        } else {
+            print("Something went wrong")
+            
+        }
+        
+    }
     
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        assert(sender as? UICollectionViewCell != nil, "sender is not a collection view")
+        
+        if let indexPath = self.previewInformation?.indexPathForCell(sender as! UICollectionViewCell) {
+            if segue.identifier == "InformationViewController" {
+                let detailVC: InformationViewController = segue.destinationViewController as! InformationViewController
+                detailVC.cellPicked = indexPath.row
+                
+            }
+        } else {
+            print("error")
+        }
+    }
+    
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
